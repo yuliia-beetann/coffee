@@ -1,0 +1,10 @@
+@font-face {
+    font-family:"Miso";
+    src: url("../fonts/Miso/miso.eot") format("eot");
+    src: url("../fonts/Miso/miso.eot?#iefix") format("embedded-opentype");
+    src: url("../fonts/Miso/miso.woff") format("woff");
+    src: url("../fonts/Miso/miso.ttf") format("truetype");
+    src: url("../fonts/Miso/miso.svg#Miso") format("svg");
+    font-weight:normal;
+    font-style:normal;
+}

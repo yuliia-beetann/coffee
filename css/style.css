@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    font-family: "PT Sans Narrow", sans-serif;
+    width: 100%;
+    max-width: 1200px;
+    min-width: 360px;
+    margin: 0 auto;
+    background-color: #fdde7e;
+}
+
+.content {
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.block {
+    width: 32%;
+    background-color: white;
+    position: relative;
+    box-shadow: 0 1px 2px 1px rgba(90, 90, 90, 0.5);
+}
+
+.price {
+padding-top: 42px;
+padding-bottom: 12px;
+font-size: 53px;
+color: #02995b;
+font-weight: bold;
+text-align: center;
+}
+
+.img {
+    padding-top: 12px;
+    padding-bottom: 38px;
+    text-align: center;
+}
+
+.name {
+    font-size: 36px;
+    color: #333333;
+    letter-spacing: 0.04em;
+    text-align: center;
+    padding: 0;
+}
+
+.info {
+    font-size: 18px;
+    line-height: normal;
+    color: #333333;
+    letter-spacing: 0.1em;
+    text-align: center;
+    padding: 35px 0 38px;
+    opacity: 0.8;
+}
+
+.main_block {
+    width: 32%;
+    background-color: white;
+    height: 500px;
+    align-items: center;
+    position: relative;
+    box-shadow: 0 1px 2px 1px rgba(90, 90, 90, 0.5);
+}
+
+.main_block .price {
+    padding-top: 50px;
+    padding-bottom: 36px;
+}
+
+.main_block .img {
+    padding-top: 12px;
+    padding-bottom: 46px;
+}
+
+.main_block .info {
+    padding: 35px 0 55px;
+}
+
+.circle {
+    font-size: 36px;
+    text-align: center;
+    padding-top: 26px;
+    width: 100px;
+    height: 100px;
+    color: white;
+    background-color: rgb(71, 88, 165, 0.5);
+    border: solid 2px #21bfb9;
+    border-radius: 50%;
+    position: absolute;
+    top: -20px;
+    right: -20px;
+}
